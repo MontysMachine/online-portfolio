@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar{
+    list-style: none;
+    display:inline-flex;
+}
+
+.navbar li{
+    padding: 10px;
+}
+
+
