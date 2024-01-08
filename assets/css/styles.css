@@ -1,27 +1,130 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.box{
-    width: auto;
-    height: 60px;
-    padding: 10px;
+header{
     background-color: lightblue;
+    padding:10px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
+    text-shadow: 1px 3px rgb(109, 139, 149); 
 }
 
-.navbar{
-    list-style: none;
-    display:inline-flex;
+.navbar ul{
+    display:flex;
+    list-style-type: none;
 }
 
-.navbar li{
-    padding: 10px;
+.navbar a{
+    text-decoration: none;
+    color:white; 
+    padding:10px;
 }
+
+.navbar a:hover{
+    background-color: rgb(109, 139, 149) ;
+    cursor: pointer;
+    text-shadow: 1px 3px rgb(47, 59, 63);
+}
+
+.subheading-image{
+    display:flex;
+    width: 100%;
+    height: 300px; 
+    object-fit:cover;
+}
+
+h2{
+    padding: 20px;
+    margin: 40px;
+    color: gray;
+    border: 5px solid white;
+    border-bottom: 3px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 0px 3px rgb(109, 139, 149);
+    text-shadow: 1px 2px rgb(47, 59, 63);
+}
+
+.about-me-section{
+    margin: 80px;
+    text-align: center;
+}
+
+.about-me-section p{
+    padding-top: 20px;
+}
+
+.my-work-section{
+    margin: 80px;
+    text-align: center;
+}
+
+.my-work-section img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(109, 139, 149);
+    background-color: lightblue;
+}
+
+.my-work-section img:hover{
+    filter:brightness(0.6);
+    cursor: pointer;
+}
+
+.contact-me-section{
+    margin: 80px;
+    text-align: center;
+}
+
+.contact-me-section ul{
+    margin-bottom: 80px;
+}
+
+.contact-me-section ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 37px;
+    padding:10px;
+    text-align: center;
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 3px rgb(109, 139, 149);
+}
+
+footer:hover{
+    background-color: rgb(109, 139, 149) ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
 
 

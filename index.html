@@ -7,15 +7,44 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <header class="box">
+    <header class="box" id="top">
         <h1>Montgomery</h1>
         <nav class="navbar">
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-work">Work</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    
+    <img class="subheading-image" src="./assets/images/austin-skyline.jpeg" alt="image of austin skyline"/>
+    <section class="about-me-section" id="about-me">
+        <h2>About Me</h2>
+        <p>My name is Josh Montgomery and I am a web developer. I
+            was born and raised in Austin and am currently living there now. I graduated 
+            high school back in 2019 and went out in the world trying all sorts of jobs in pursuit
+            something I was really passionate about. Well after four years I finally found it in 
+            the form of web development.
+        </p>
+    </section>
+
+    <section class="my-work-section" id="my-work">
+        <h2>My Work</h2>
+        <a href="https://montysmachine.github.io/First-Challenge/">
+            <img src="./assets/images/horiseon.jpg" alt="picture of my first application"/>   
+        </a>
+    </section>
+
+    <section class="contact-me-section" id="contact-me">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Phone Number: 512-605-8822</li>
+            <li>Email: jreidmonty@icloud.com</li>
+            <li>Github: https://github.com/MontysMachine</li>
+        </ul>
+    </section>
+    <footer>
+        <h3><a href="#top">Scroll Back To The Top</a></h3>
+    </footer>
 </body>
 </html>
